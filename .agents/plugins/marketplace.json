@@ -1,0 +1,20 @@
+{
+  "name": "smart-model-router",
+  "interface": {
+    "displayName": "Smart Model Router"
+  },
+  "plugins": [
+    {
+      "name": "codex-smart-router",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-smart-router"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

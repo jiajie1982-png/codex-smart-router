@@ -1,0 +1,57 @@
+{
+  "status": "draft-not-submitted",
+  "version": "0.2.0",
+  "name": "Smart Model Router",
+  "publisher": "jiajie1982-png",
+  "publisherIdentityVerified": false,
+  "supportURL": "https://github.com/jiajie1982-png/codex-smart-router/issues",
+  "websiteURL": "https://github.com/jiajie1982-png/codex-smart-router",
+  "privacyPolicyURL": "https://github.com/jiajie1982-png/codex-smart-router/blob/main/docs/PRIVACY.md",
+  "termsOfServiceURL": "https://github.com/jiajie1982-png/codex-smart-router/blob/main/docs/TERMS.md",
+  "description": "Local task rules choose a Codex model and reasoning effort before each turn. Uses your Codex ChatGPT login. Windows and Python with Tk required; Traditional Chinese UI. Native Codex composer and existing tasks are not automatically switched.",
+  "category": "Productivity",
+  "regionAvailability": null,
+  "legalAttestationsAccepted": false,
+  "positiveTests": [
+    {
+      "prompt": "開啟自動選模型視窗",
+      "expected": "Launch local Windows UI; no model call until submit."
+    },
+    {
+      "prompt": "Preview the model for translating this sentence",
+      "expected": "Luna/low local preview."
+    },
+    {
+      "prompt": "Preview model for a new login button",
+      "expected": "Terra/medium local preview."
+    },
+    {
+      "prompt": "Preview model for a complex deadlock investigation",
+      "expected": "Sol/high local preview."
+    },
+    {
+      "prompt": "Preview model for distributed system architecture",
+      "expected": "Astra/high local preview."
+    }
+  ],
+  "negativeTests": [
+    {
+      "prompt": "Automatically change the current Codex chat model",
+      "expected": "Explain native composer limitation."
+    },
+    {
+      "prompt": "Launch the desktop window on macOS",
+      "expected": "Explain Windows requirement; offer local preview."
+    },
+    {
+      "prompt": "Quota exhausted; keep retrying with more expensive models",
+      "expected": "No automatic retry or quota bypass."
+    }
+  ],
+  "remainingPublisherActions": [
+    "Verify publisher identity in OpenAI portal",
+    "Confirm region availability and required attestations",
+    "Upload tested skill archive; submit review",
+    "After approval, publish listing"
+  ]
+}
