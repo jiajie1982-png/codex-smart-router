@@ -1,6 +1,6 @@
 # Privacy — Smart Model Router
 
-Effective date: 2026-09-14. Publisher: jiajie1982-png.
+Effective date: 2026-09-14. Publisher identity clarification: 2026-09-15. Publisher: 佳 呂 (GitHub: jiajie1982-png). Data handling is unchanged.
 
 Task classification runs locally using rules. This plugin has no publisher-operated server, analytics or telemetry endpoint and does not send prompts to the publisher. It uses your installed Codex app-server and existing ChatGPT login. Actual tasks and relevant context are processed by OpenAI through Codex and may use the tools/providers you have configured. This is not an offline AI product.
 

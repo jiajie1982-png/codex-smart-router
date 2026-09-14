@@ -1,6 +1,6 @@
 # Smart Model Router
 
-A community Codex plugin with a separate Windows task window that chooses a model and reasoning effort before each turn. Published by **jiajie1982-png**. Not an OpenAI product or an approved directory listing.
+A community Codex plugin with a separate Windows task window that chooses a model and reasoning effort before each turn. Published by **佳 呂**, using the GitHub account **jiajie1982-png**. Not an OpenAI product or an approved directory listing.
 
 ## 中文介紹
 
