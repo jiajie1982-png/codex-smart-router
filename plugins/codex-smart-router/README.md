@@ -1,6 +1,6 @@
 # Smart Model Router
 
-A community Codex plugin with a separate Windows task window that chooses a model and reasoning effort before each turn. Published by **jiajie1982-png**. Not an OpenAI product or an approved directory listing.
+A community Codex plugin with a separate Windows task window that chooses a model and reasoning effort before each turn. Published by **佳 呂**, using the GitHub account **jiajie1982-png**. Not an OpenAI product or an approved directory listing.
 
 ## 中文介紹
 
@@ -65,4 +65,4 @@ Tests use a fake Codex backend and do not consume model tokens. `scripts/smoke.p
 
 ## Support and policies
 
-Report reproducible problems through [GitHub Issues](https://github.com/jiajie1982-png/codex-smart-router/issues). Do not post credentials, private project files or complete private transcripts. See [Privacy](https://github.com/jiajie1982-png/codex-smart-router/blob/main/docs/PRIVACY.md), [Terms](https://github.com/jiajie1982-png/codex-smart-router/blob/main/docs/TERMS.md), and the MIT license. Compatibility depends on the installed Codex app-server and available account models. This first public version is 0.2.0.
+Report reproducible problems through [GitHub Issues](https://github.com/jiajie1982-png/codex-smart-router/issues). Do not post credentials, private project files or complete private transcripts. See [Privacy](https://github.com/jiajie1982-png/codex-smart-router/blob/main/docs/PRIVACY.md), [Terms](https://github.com/jiajie1982-png/codex-smart-router/blob/main/docs/TERMS.md), and the MIT license. Compatibility depends on the installed Codex app-server and available account models. Version 0.2.1 places the launcher and guide in subfolders for directory import compatibility.

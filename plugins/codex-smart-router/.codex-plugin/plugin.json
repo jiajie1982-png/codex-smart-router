@@ -1,9 +1,9 @@
 {
   "name": "codex-smart-router",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Choose Codex models with local rules in a separate Windows task window.",
   "author": {
-    "name": "jiajie1982-png",
+    "name": "佳 呂",
     "url": "https://github.com/jiajie1982-png"
   },
   "homepage": "https://github.com/jiajie1982-png/codex-smart-router",
@@ -18,9 +18,9 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Smart Model Router",
-    "shortDescription": "Auto-select models in a separate Windows task window.",
+    "shortDescription": "Choose models for Codex tasks",
     "longDescription": "Local task rules choose a Codex model and reasoning effort before each turn. Uses your Codex ChatGPT login. Windows and Python with Tk required; Traditional Chinese UI. Native Codex composer and existing tasks are not automatically switched.",
-    "developerName": "jiajie1982-png",
+    "developerName": "佳 呂",
     "category": "Productivity",
     "capabilities": [
       "Interactive",

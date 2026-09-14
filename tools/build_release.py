@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PLUGIN = ROOT / 'plugins/codex-smart-router'
 SKILL = PLUGIN / 'skills/smart-model-routing'
 SKILL_FILES = ['SKILL.md','README.md','LICENSE','Start.cmd','launch.ps1',
- 'scripts/app.py','scripts/client.py','scripts/routing.py','scripts/resource-check.ps1','scripts/smoke.py',
+ 'references/README.md','references/LICENSE','scripts/launch.ps1','scripts/app.py','scripts/client.py','scripts/routing.py','scripts/resource-check.ps1','scripts/smoke.py',
  'tests/test_router.py','tests/test_ui.py']
 PLUGIN_FILES = ['.codex-plugin/plugin.json','README.md','LICENSE','Start.cmd',
  'assets/logo.svg','assets/logo.png','docs/PRIVACY.md','docs/TERMS.md'] + [f'skills/smart-model-routing/{p}' for p in SKILL_FILES]
@@ -46,7 +46,8 @@ def build():
                 info.compress_type = zipfile.ZIP_DEFLATED
                 info.external_attr = 0o100644 << 16
                 info.create_system = 3
-                archive.writestr(info, (base/name).read_bytes())
+                data = (base/name).read_bytes() if name.endswith('.png') else (base/name).read_text(encoding='utf-8').encode('utf-8')
+                archive.writestr(info, data)
         with zipfile.ZipFile(path) as archive:
             assert archive.testzip() is None
             assert len(archive.namelist()) == len(files)

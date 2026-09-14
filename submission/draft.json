@@ -1,9 +1,9 @@
 {
   "status": "draft-not-submitted",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "name": "Smart Model Router",
-  "publisher": "jiajie1982-png",
-  "publisherIdentityVerified": false,
+  "publisher": "佳 呂",
+  "publisherIdentityVerified": true,
   "supportURL": "https://github.com/jiajie1982-png/codex-smart-router/issues",
   "websiteURL": "https://github.com/jiajie1982-png/codex-smart-router",
   "privacyPolicyURL": "https://github.com/jiajie1982-png/codex-smart-router/blob/main/docs/PRIVACY.md",
@@ -49,9 +49,9 @@
     }
   ],
   "remainingPublisherActions": [
-    "Verify publisher identity in OpenAI portal",
-    "Confirm region availability and required attestations",
-    "Upload tested skill archive; submit review",
+    "Finish automated package scan",
+    "Confirm required policy attestations",
+    "Submit for review",
     "After approval, publish listing"
   ]
 }

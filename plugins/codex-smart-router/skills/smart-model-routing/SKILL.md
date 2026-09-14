@@ -3,9 +3,9 @@ name: smart-model-routing
 description: Open Smart Model Router on Windows or preview a model recommendation when the user asks for automatic Codex model selection. Provides a separate local task window; it does not change the current Codex conversation's model.
 ---
 
-Use this skill for the installed Smart Model Router application, not to claim that a prompt can change the current model. Read [README.md](README.md) for setup and controls.
+Use this skill for the installed Smart Model Router application, not to claim that a prompt can change the current model. Read [README.md](references/README.md) for setup and controls.
 
-All required application files are within this skill directory. On Windows, when the user asks to open the router, invoke this directory's `launch.ps1` with PowerShell. It opens a visible interactive task window and reuses the user's existing ChatGPT login in Codex. If Python with Tk or native Codex is missing, explain the requirement from the README rather than installing unrelated software automatically. This release's UI is Traditional Chinese. The router handles Chinese and English task descriptions with local rules; the executing model should use the user's preferred language.
+All required application files are within this skill directory. On Windows, when the user asks to open the router, invoke this directory's `scripts/launch.ps1` with PowerShell. It opens a visible interactive task window and reuses the user's existing ChatGPT login in Codex. If Python with Tk or native Codex is missing, explain the requirement from the README rather than installing unrelated software automatically. This release's UI is Traditional Chinese. The router handles Chinese and English task descriptions with local rules; the executing model should use the user's preferred language.
 
 For a recommendation without a model call, run `scripts/app.py --preview <task>` with Python 3.10 or later. Pass user text as a structured process argument. If shell quoting is uncertain, open the UI for the user to paste their task. Do not interpolate user text into a shell command string.
 

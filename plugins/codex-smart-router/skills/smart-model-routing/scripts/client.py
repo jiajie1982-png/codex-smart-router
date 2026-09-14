@@ -87,7 +87,7 @@ class Client:
                 self.pending.pop(ident, None)
 
     def initialize(self):
-        self.request("initialize", {"clientInfo": {"name": "codex_smart_router", "title": "Smart Model Router", "version": "0.2.0"}})
+        self.request("initialize", {"clientInfo": {"name": "codex_smart_router", "title": "Smart Model Router", "version": "0.2.1"}})
         self.send({"method": "initialized"})
         account = self.request("account/read", {"refreshToken": False}).get("account")
         if not account:
